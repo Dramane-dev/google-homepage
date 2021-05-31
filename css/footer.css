@@ -1,0 +1,9 @@
+.french {
+    display: flex;
+}
+
+.others-otpion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
