@@ -1,9 +1,46 @@
+.footer {
+    margin-top: 20vh;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 .french {
     display: flex;
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px;
+}
+
+.french > p {
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+}
+
+.carbonne > a {
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
 }
 
 .others-otpion {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 0;
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px;
 }
+
+.others-option-1 > a {
+    color: gray;
+}
+
+.others-option-2 > a {
+    color: gray;
+}
+
+a {
+    margin-right: 30px;
+}
+

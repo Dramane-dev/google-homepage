@@ -2,5 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 24px;
 }
 
+.translate-span {
+    margin-left: 10px;
+}
+
+.translate-span > a {
+    color: blue;
+}

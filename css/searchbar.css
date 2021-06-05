@@ -4,3 +4,72 @@
     justify-content: center;
 }
 
+.input-search-mic {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    border: 1.5px solid whitesmoke;
+    border-radius: 50px;
+}
+
+.input > input {
+    background: transparent;
+    outline: none;
+    border: none;
+    height: 80%;
+}
+
+.input-search-mic:hover {
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+}
+.search-icon {
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-with-google {
+    margin-right: 20px;
+}
+
+.search-with-google-btn {
+    background: transparent;
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.have-luck-btn {
+    background: transparent;
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.search-with-google-btn:hover {
+    border: 1.5px solid #bdc3c7;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+}
+
+.have-luck-btn:hover {
+    border: 1.5px solid #bdc3c7;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+}

@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
         <!-- CSS link -->
+        <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/google.img.css">
         <link rel="stylesheet" href="../css/searchbar.css">
@@ -35,7 +36,7 @@
             </div>
             <div class="google-account">
                 <a class="google-account" href="">
-                    <img src="https://lh3.googleusercontent.com/ogw/ADGmqu8BMiPFOsadzeUmEhiDxsYj86WZMRyNk3Jar4pG=s32-c-mo" 
+                    <img id="user-img" src="https://lh3.googleusercontent.com/ogw/ADGmqu8BMiPFOsadzeUmEhiDxsYj86WZMRyNk3Jar4pG=s32-c-mo" 
                         alt="user pixe" />
                 </a>
             </div>
@@ -54,42 +55,48 @@
 
         <div class="search-bar">
             <form action="/search" method="GET">
-                <div class="search-img">
-                    <span class="material-icons">
-                        search
-                    </span>
-                </div>
-                <div class="input">
-                    <input type="text" />
-                </div>
-                <div class="mic-img">
-                    <span class="material-icons">
-                        mic
-                    </span>
+                <div class="input-search-mic">
+                    <div class="search-img">
+                        <span class="material-icons search-icon">
+                            search
+                        </span>
+                    </div>
+                    <div class="input">
+                        <input type="text" size="60"/>
+                    </div>
+                    <div class="mic-img">
+                        <span class="material-icons">
+                            mic
+                        </span>
+                    </div>
                 </div>
 
                 <div class="buttons">
                     <div class="search-with-google">
-                        <button class="search-with-google">Google Search</button>
+                        <button class="search-with-google-btn">Google Search</button>
                     </div>
 
                     <div class="have-luck">
-                        <button class="have-luck">I'm feeling Lucky</button>
+                        <button class="have-luck-btn">I'm feeling Lucky</button>
                     </div>
                 </div>
             </form>
         </div>
-
+        
         <div class="translate">
             <div class="translate">
                 Google offered in : 
-                <a href="https://www.google.fr/setprefs?sig=0_TXbhC2axApkBYi6jdu1Q57Aq9sM%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwiEr4yXy_TwAhUMzhoKHX97AUIQ2ZgBCA8">
-                Français</a>
+                <span class="translate-span">
+                    <a href="https://www.google.fr/setprefs?sig=0_TXbhC2axApkBYi6jdu1Q57Aq9sM%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwiEr4yXy_TwAhUMzhoKHX97AUIQ2ZgBCA8">
+                    Français</a>
+                </span>
             </div>
         </div>
 
         <div class="footer">
-            <div class="french">France</div>
+            <div class="french">
+                <p>France</p>
+            </div>
             <div class="others-otpion">
                 <div class="other-option-left">
                     <div class="others-option-1">
@@ -98,6 +105,9 @@
                         <a class="business" href="">Business</a>
                         <a class="search-works" href="">How Search works</a>
                     </div>
+                </div>
+                <div class="carbonne">
+                    <a class="carbonne-text" href="#">Neutre en carbone depuis 2007</a>
                 </div>
                 <div class="others-option-right">
                     <div class="others-option-2">
